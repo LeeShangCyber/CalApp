@@ -15,5 +15,17 @@ namespace CallApp
         {
             InitializeComponent();
         }
+
+      
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+        
+        private void textBox2_TextChanged(object sender, EventArgs e)
+        {
+            textBox2.Text = "cde";
+        }
     }
 }
